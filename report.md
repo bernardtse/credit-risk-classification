@@ -35,8 +35,8 @@ The results of the two models are compared to decide which one is more suitable 
 
 * Machine Learning Model 1 (Logistic Regression - Original Data):
   * Balanced Accuracy Score: 0.952
-  *	Precision: Healthy Loan `0` - 1.00; High-Risk Loan `1` - 0.85
-  *	Recall: Healthy Loan `0` - 0.99; High-Risk Loan `1` - 0.91
+  *	Precision: Healthy Loans `0` - 1.00; High-Risk Loans `1` - 0.85
+  *	Recall: Healthy Loans `0` - 0.99; High-Risk Loans `1` - 0.91
   
 - The logistic regression model is highly accurate overall. The balanced accuracy score is 0.952. The balanced accuracy is defined as the average of recall obtained on each class. As the best value is 1, it shows that the model is highly accurate.
 
@@ -47,14 +47,14 @@ The results of the two models are compared to decide which one is more suitable 
 
 * Machine Learning Model 2 (Logistic Regression - Resampled Data):
   * Balanced Accuracy Score: 0.994
-  *	Precision: Healthy Loan `0` - 1.00; High-Risk Loan `1` - 0.84
-  *	Recall: Healthy Loan `0` - 0.99; High-Risk Loan `1` - 0.99
+  *	Precision: Healthy Loans `0` - 1.00; High-Risk Loans `1` - 0.84
+  *	Recall: Healthy Loans `0` - 0.99; High-Risk Loans `1` - 0.99
 
 - The model performs slightly better when using the resampled data.
 
-- For Healthy loan `0`, though there is less training data, the precision and recall do not suffer a lot. This is because the amount of training data, though reduced, is still sufficient to train an accurate model.
+- For Healthy loans `0`, though there is less training data, the precision and recall do not suffer a lot. This is because the amount of training data, though reduced, is still sufficient to train an accurate model.
 
-- For High-risk loan `1`, with more training data, we can see improvements in the prediction results.
+- For High-risk loans `1`, with more training data, we can see improvements in the prediction results.
 
 - Overall balanced accuracy score of the prediction is improved from 0.952 to 0.994.
 
