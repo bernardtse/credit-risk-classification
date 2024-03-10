@@ -54,7 +54,7 @@ The results of the two models are compared to decide which one is more suitable 
 
 - For Healthy loan, though there is less training data, the precision, recall and f1-score do not suffer a lot. This is because the amount of training data, though reduced, is still sufficient to train an accurate model.
 
-- On the other hand, with more training data for High-risk loan, we can see improvements in the prediction results, with f1-score improve from 0.88 to 0.91.
+- On the other hand, with more training data for High-risk loan, we can see improvements in the prediction results.
 
 - Overall balanced accuracy score of the prediction is improved from 0.95 to 0.99.
 
