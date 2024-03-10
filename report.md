@@ -18,11 +18,11 @@ In the dataset, there are 75036 counts of Healthy loans and 2500 counts of High-
 
 The dataset was first split into training dataset and test dataset.
 
-y_train: loan_status
-X_train: features in the dataset, including loan_size, interest_rate, etc.
+- y_train: loan_status
+- X_train: features in the dataset, including loan_size, interest_rate, etc.
 
-y_test: loan_status
-X_test: features in the dataset, including loan_size, interest_rate, etc.
+- y_test: loan_status
+- X_test: features in the dataset, including loan_size, interest_rate, etc.
 
 A Logistic Regression model was fitted to the training dataset and then used to predict the loan_status of the test dataset.
 
