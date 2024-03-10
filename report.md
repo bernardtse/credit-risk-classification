@@ -38,11 +38,11 @@ The results of the two models are compared to decide which one is more suitable 
   *	Precision: Healthy Loan (0) - 1.00, High-Risk Loan (1) - 0.85
   *	Recall: Healthy Loan (0) - 0.99, High-Risk Loan (1) - 0.91
   
-The logistic regression model is highly accurate overall. The balanced accuracy score is 0.95. The balanced accuracy is defined as the average of recall obtained on each class. As the best value is 1, it shows that the model is highly accurate.
+- The logistic regression model is highly accurate overall. The balanced accuracy score is 0.95. The balanced accuracy is defined as the average of recall obtained on each class. As the best value is 1, it shows that the model is highly accurate.
 
-According to the classification report, the classification model achieves high performance, with an balanced accuracy score of 0.952. It shows excellent precision, recall, and F1-score for both healthy and high-risk loans. The model can distinguish between the Healthy loans and High-risk loans accurately, with minimal misclassification.
+- According to the classification report, the classification model achieves high performance, with an balanced accuracy score of 0.952. It shows excellent precision, recall, and F1-score for both healthy and high-risk loans. The model can distinguish between the Healthy loans and High-risk loans accurately, with minimal misclassification.
 
-The values of precision, recall and F1-score are slightly lower when it comes to High-risk loans when compared to predicting Healthy loans.
+- The values of precision, recall and F1-score are slightly lower when it comes to High-risk loans when compared to predicting Healthy loans.
 
 
 * Machine Learning Model 2 (Logistic Regression - resampled data):
@@ -50,13 +50,13 @@ The values of precision, recall and F1-score are slightly lower when it comes to
   *	Precision: Healthy Loan (0) - 1.00, High-Risk Loan (1) - 0.84
   *	Recall: Healthy Loan (0) - 0.99, High-Risk Loan (1) - 0.99
 
-The model performs slightly better when using the resampled data.
+- The model performs slightly better when using the resampled data.
 
-For Healthy loan, though there is less training data, the precision, recall and f1-score do not suffer a lot. This is because the amount of training data, though reduced, is still sufficient to train an accurate model.
+- For Healthy loan, though there is less training data, the precision, recall and f1-score do not suffer a lot. This is because the amount of training data, though reduced, is still sufficient to train an accurate model.
 
-On the other hand, with more training data for High-risk loan, we can see improvements in the prediction results, with f1-score improve from 0.88 to 0.91.
+- On the other hand, with more training data for High-risk loan, we can see improvements in the prediction results, with f1-score improve from 0.88 to 0.91.
 
-Overall balanced accuracy score of the prediction is improved from 0.95 to 0.99.
+- Overall balanced accuracy score of the prediction is improved from 0.95 to 0.99.
 
 ## Summary
 
