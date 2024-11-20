@@ -14,14 +14,14 @@ This challenge uses various techniques to train and evaluate a model based on lo
 ## 2. Repository, Setup and Execution
 
 ### This repository contains:
-- Credit_Risk/credit_risk_classification.ipynb: a jupyter notebook that contains all the necessary codes.
-- Credit_Risk/Resources: folder containing the data files used
-- report.md
+- [`Credit_Risk/credit_risk_classification.ipynb`](Credit_Risk/credit_risk_classification.ipynb): a jupyter notebook that contains all the necessary codes.
+- [`Credit_Risk/Resources`](Credit_Risk/Resources): folder containing the data files used
+- [`report.md`](report.md)
 
 ### To start: 
 - Clone this GitHub repository to a local folder.
 - Run Credit_Risk/credit_risk_classification.ipynb on Jupyter notebook.
-- Report is stored in report.md
+- Report is stored in [`report.md`](report.md)
 
 ### Required Python Libraries:
 - pandas
