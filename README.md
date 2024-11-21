@@ -1,4 +1,5 @@
 # credit-risk-classification
+Loan Risk Prediction with Supervised Learning Models
 
 ## Contents
 1. [Overview](#1-overview)
@@ -8,7 +9,7 @@
 
 ## 1. Overview
 
-This challenge uses various techniques to train and evaluate a model based on loan risk. A dataset of historical lending activity from a peer-to-peer lending services company is used to build a model that can identify the creditworthiness of borrowers.
+This challenge uses various techniques to train and evaluate a supervised machine learning model based on loan risk. A dataset of historical lending activity from a peer-to-peer lending services company is used to build a model that can identify the creditworthiness of borrowers.
 
 
 ## 2. Repository, Setup and Execution
