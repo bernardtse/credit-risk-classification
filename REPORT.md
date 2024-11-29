@@ -1,4 +1,4 @@
-# Module 12 Report - Credit Risk Classification
+# Credit Risk Classification Report
 
 ## Contents
 1. [Overview](#1-overview)
