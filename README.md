@@ -1,4 +1,4 @@
-# credit-risk-classification
+# credit-risk-classification-challenge
 Loan Risk Prediction with Supervised Learning Models
 
 ## Contents
